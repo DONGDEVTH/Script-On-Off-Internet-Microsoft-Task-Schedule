@@ -1,0 +1,13 @@
+1. Open Notepad, add the following content and save as disable.bat onto desktop.
+
+ 
+netsh interface set interface name="Local Area Connection" disable
+
+ 
+2. Open Notepad, add the following content and save as enable.bat onto desktop.
+
+ 
+netsh interface set interface name="Local Area Connection" enable
+
+ 
+

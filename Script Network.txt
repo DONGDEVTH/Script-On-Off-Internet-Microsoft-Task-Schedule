@@ -1,0 +1,3 @@
+>netsh interface set interface "Local Area Connection" DISABLED
+One or more essential parameters not specified
+The syntax supplied for this command is not valid. Check help for the correct syntax.

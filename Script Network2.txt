@@ -1,0 +1,14 @@
+Disable the LAN network connection
+
+C:\> netsh interface set interface name="Local Area Connection" admin=disabled
+Enable the LAN network connection
+
+C:\> netsh interface set interface name="Local Area Connection" admin=enabled
+assumption : your interface was named as "Local Area Connection" else substitute proper name
+
+List Wifi profiles
+
+C:\> netsh wlan show profiles
+Connect to Wifi profile
+
+C:\> netsh wlan connect name="ProfileName"
